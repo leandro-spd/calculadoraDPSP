@@ -1,17 +1,18 @@
 body{
-  background-image: url(../src/imagens/bannerdpsp.jpeg);
+  background-image: url(../src/imagens/WhatsApp\ Image\ 2023-05-15\ at\ 01.50.40.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
   font-family: 'VT323', monospace;
-  color: #0b0b0b;
+  color: #000000;
   font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 5vh;
   padding: 30px;}
+
 .container {
     margin: auto;
     max-width: 1000px;
@@ -25,30 +26,29 @@ body{
   form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 36px;
+    margin-bottom: 10px;
   }
   
   label {
     font-size: 15px;
-    margin-bottom: 25px;
     font-weight: bold;
-    color: #0c0b0b;
-    padding: 20px;
+    color: #000000;
     text-align: center;
     background-color: #03aee286;
     border-radius: 40px;
-    margin: 35px;
-    padding: 10px 20px;
+    margin: 20px;
+    padding: 10px 40px;
 
   }
   
   input {
-    font-size: 20px;
+    font-size: 20;
     padding: 10px;
     margin-bottom: 20px;
-    border: none;
+    border: 1px solid #000000;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgb(10, 10, 10);
+    box-shadow: 0 0 5px #0066ff;
+
   }
   
   button {
@@ -60,7 +60,8 @@ body{
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(11, 10, 10, 0.912);
     cursor: pointer;
-  }
+    }
+  
   
   button:hover {
     background-color: #005EAD;
@@ -71,6 +72,7 @@ body{
     font-weight: bold;
     color: #000000 ;
     background-color: #ffffffa8;
+    margin-bottom: 40px;
     border-radius: 40px;
-    
+    box-shadow: 0 0 5px #0066ff;
   }
