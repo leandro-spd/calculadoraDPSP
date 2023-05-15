@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de desconto Drogaria SP</title>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de desconto DPSP</h1>
+      <form>
+        <label for="preco">Preço do medicamento:</label>
+        <input type="number" id="preco" name="preco">
+        
+        <label for="desconto">Desconto em porcentagem:</label>
+        <input type="number" id="desconto" name="desconto">
+        
+        <button type="button" onclick="calcularPreco()">Calcular</button>
+      </form>
+      
+      <div id="resultado"></div>
+    </div>
+    
+    <script src="src/script.js"></script>
+  </body>
+</html>

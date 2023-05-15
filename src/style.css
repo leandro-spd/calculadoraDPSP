@@ -1,0 +1,68 @@
+body{
+  background-image: url(../src/imagens/Mascote-DPSP-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: 'VT323', monospace;
+  color: #0b0b0b;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+  padding: 30px;}
+.container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 80px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(10, 10, 10);
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #0077CC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(11, 10, 10, 0.912);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005EAD;
+  }
+  
+  #resultado {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
